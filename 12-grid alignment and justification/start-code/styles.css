@@ -4,4 +4,28 @@
 
 .container {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 10px solid black;
+
+  /* align-items: center;
+justify-items: center;
+align-content: speace-evenly;
+justify-content: speace-elenly;
+justify-self: 
+align-self */
 }
+.item {
+  justify-self: stretch;
+  align-self: stretch;
+}
+/* justify-items */
+
+/* align-items */
+
+/* justify-content */
+
+/* align-content */
+
+/* justify-self */
+/* align-self */
